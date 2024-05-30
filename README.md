@@ -1,8 +1,36 @@
-# React + Vite
+# Product Listing Page
+   # live link :- https://665865c1497f3af93daafaff--remarkable-gnome-11066d.netlify.app/
+## Setup
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/PrabhjotSingh-developer/ProductListingPage.git
+   cd ProductListingPage
 
-Currently, two official plugins are available:
+2. Install dependencies :
+    npm install
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+3. Start the development server:
+    npm run dev
+
+# Features
+    Responsive UI using Tailwind CSS
+    Fetches product data from a mock API
+    Displays products in a grid layout
+    Search functionality to filter products by name
+    Product details modal
+
+# Technologies Used
+    React.js
+    Tailwind CSS
+
+
+### Summary
+
+- **Responsive UI**: Tailwind CSS ensures the layout is responsive.
+- **Data Fetching**: Fetch product data from `https://fakestoreapi.com/products`.
+- **Product Listing**: Display products in a grid layout.
+- **Search**: Filter products by name with a search bar.
+- **Product Details Modal**: Display product details in a modal.
+
+This setup provides a fully functional product listing page with a clean and responsive design.
